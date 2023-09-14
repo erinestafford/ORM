@@ -1,3 +1,4 @@
+%% Uses FBS to solve bovine mastitis problem
 figure()
 pop_test=100;
 beta_test = 0.0232/pop_test;

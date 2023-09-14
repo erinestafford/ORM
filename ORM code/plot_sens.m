@@ -1,3 +1,5 @@
+%% Needs to be adapted by number of switches
+
 out_I0_no_zeros = out_I0;
 out_I0_no_zeros(out_I0_no_zeros==0)=nan;
 

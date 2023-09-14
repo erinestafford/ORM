@@ -1,5 +1,4 @@
 function [out,n_switches] = sensitivity_all_roots(I0,beta,gamma,r,c,sigma,pop,T,amin,amax)
-%to do sensitivity
 out = NaN(3,1);
 n_switches=NaN(3,1);
 %% find roots

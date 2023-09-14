@@ -1,4 +1,6 @@
-%clear all; close all;
+%clear all; close all; 
+%Plots are separately adapted so that lines correspond to number of
+%switches instead of numerical order of roots
 
 N = 20;
 pop=100.0;

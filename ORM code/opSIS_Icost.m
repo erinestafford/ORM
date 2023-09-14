@@ -1,4 +1,5 @@
 function [t,I,curlambda,a] = opSIS_Icost(I0,beta,gamma,r,c,s,pop,T, amin, amax)
+%FBS for our model
 test = -1;
 delta = 0.0001;
 N = 100000;

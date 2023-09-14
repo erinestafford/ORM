@@ -1,4 +1,4 @@
-%%
+%% Run to get the plot of the candidate solutions in the T-Lambda plane
 % pop=100;
 % beta = 0.06/pop;%0.0232/pop;%0.06;
 % r = 0.1;%0.39;
@@ -44,7 +44,6 @@ l0 = -1.0;
 dy = 0.01;
 NSTPS = 2000000;
 HT = 500;
-%TTARG=250.0;
 TTARG=305.0;
 
 f = @(t,y)odeswitch(t,y,amin,amax,r,sigma,beta,pop,c,gamma);

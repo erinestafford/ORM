@@ -1,7 +1,7 @@
 clear all; close all; clc;
-%%
+%% Code to run the T vs lambda plot in the Supplement
 pop=100;
-beta = 0.0232/pop;%0.06;
+beta = 0.0232/pop;
 r = 0.1;%0.39;
 c = 0.2;%6.83;
 gamma = 1/110;
